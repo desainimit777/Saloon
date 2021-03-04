@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.head
+{
+    background-color: black;
+}
+
+.navbar-dark .navbar-brand
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-inner
+{
+    color: white;
+}
+
+h2
+{
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand:hover
+{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: blanchedalmond;
+    padding-right: 36px;
+}
+
+.main
+{
+    padding: 10%;
+    padding-left: 0%;
+}
+
+.head2
+{
+background-image: url("../images/model4.jpg");
+background-size: cover;
+opacity: 0.9;
+}
+
+.btn a:hover
+{
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background-color: pink;
+    border: pink 2px solid;
+}
+
+.p
+{
+    margin-top: 9%;
+}
+
+h1
+{
+    color:rgb(12, 4, 6);
+}
+
+.img-circle
+{
+    border-radius: 50%;
+}
+
+#carouselExampleControls
+{
+background-color: rgb(228, 166, 197);
+}
+
+
+.feature-icon {
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
+  .feature-icon:hover {
+    color:#ff4c68;
+  }
+  .feature-text {
+    color:#8f8f8f;
+  }
+  #features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+  .feature-box 
+  {
+    text-align: center;
+    padding: 4%;
+  }
+
+  #cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 15% 5%;;
+  }
+  #cta h3{
+    color:white;
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+
+  /* SERVICES */
+
+  .services
+  {
+    background-color: #f8f8f8;
+  }
+
+  hr
+  {
+      background-color: pink;
+      border-width: 2px;
+  }
+
+  .icon-classic
+  {
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .card
+  {
+      border: pink solid 4px;
+  }
+
+  .card-text
+  {
+      color: black;
+  }
+
+  .map
+  {
+      background-color: #f8f8f8;
+  }
+
+  .map-container-7
+    {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-7 iframe
+    {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    /* contact us */
+
+    .card-body
+    {
+        background-color: #e6dfdf;
+    }
+
+    .contactus
+    {
+        background-color: #e6dfdf;
+        border-radius: red 2px solid;
+    }
+
+@media only screen and (max-width: 600px) 
+{
+    .navbar-dark .navbar-nav .nav-link
+    {
+        text-align: center;
+    }
+
+    .col-lg-4
+    {
+        padding-top: 2%;
+    }
+
+    .cards-sections
+    {
+        margin-left: 30px;
+    }
+}
+
+/* .close-icon.fa.fa-times
+{
+    margin-top: 2%;
+    height: 30px;
+    width: 30px;
+} */
+
+.btn-outline-secondary
+{
+    border: solid rgb(201, 81, 25) 2px;
+
+}
+
+#right-arrow{
+    transform: translateX(0px);
+    animation-name:bounce-right;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce-right{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(11px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
